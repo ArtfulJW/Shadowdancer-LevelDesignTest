@@ -41,7 +41,7 @@ public class CharacterLocomotion : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + (float)0.1, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + (float)0.15, transform.position.z);
         }
     }
 
